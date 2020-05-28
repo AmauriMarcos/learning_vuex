@@ -10,10 +10,10 @@
     export default {
         methods: {
             ...mapMutations([
-                    "increment",
-                    "decrement"
-                ]),
-           
+                "increment",
+                "decrement"
+            ]),
+          
         }
     }
 </script>

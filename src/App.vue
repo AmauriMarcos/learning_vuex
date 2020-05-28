@@ -7,6 +7,7 @@
                 <hr>
                 <app-another-result></app-another-result>
                 <hr>
+                <app-another-counter></app-another-counter>
                 <app-counter></app-counter>
                 
             </div>
@@ -16,6 +17,7 @@
 
 <script>
     import Counter from './components/Counter.vue';
+     import AnotherCounter from './components/AnotherCounter.vue';
     import Result from './components/Result.vue';
     import AnotherResult from './components/AnotherResult.vue';
 
@@ -23,7 +25,8 @@
         components: {
             appCounter: Counter,
             appResult: Result,
-            appAnotherResult: AnotherResult
+            appAnotherResult: AnotherResult,
+            appAnotherCounter: AnotherCounter
         }
     }
 </script>
